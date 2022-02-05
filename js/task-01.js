@@ -25,9 +25,16 @@ console.log("Number of categories:",numberOfCategories);
 // const thirdTitle = thirdItem.querySelector('h2');
 // console.log("Category:", thirdTitle.textContent);
 
+// liEl.forEach(element => {
+// 	const categories = element.querySelector('h2').textContent;
+// 	console.log("Category:",categories);
+// 	const  numberOfElements = element.querySelectorAll('li').length;
+// 	console.log("Elements:", numberOfElements);
+// });
+// liEl.forEach(element => {
+// 	console.log("Category:", element.querySelector('h2').textContent);
+// 	console.log("Elements:", element.querySelectorAll('li').length);
+// });
 liEl.forEach(element => {
-	const categories = element.querySelector('h2').textContent;
-	console.log("Category:",categories);
-	const  numberOfElements = element.querySelectorAll('li').length;
-	console.log("Elements:", numberOfElements);
+	console.log("Category:", element.querySelector('h2').textContent,  "\nElements:", element.querySelectorAll('li').length);
 });
