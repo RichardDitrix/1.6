@@ -14,7 +14,7 @@ const ingredients = [
 // createIngridients.classList.add("item");
 // ingridintsEll.append(createIngridients);
 // console.log(createIngridients);
-const addIngredients = document.querySelector("#ingredients");
+// const addIngredients = document.querySelector("#ingredients");
 // for (let i = 0; i < ingredients.length; i += 1) {
 // 	const addLi = document.createElement("li");
 // 	addLi.textContent = ingredients[i];
@@ -22,15 +22,46 @@ const addIngredients = document.querySelector("#ingredients");
 // 	addIngredients.append(addLi);
 
 // };
-// const qqq = document.querySelector("#ingredients");
+const fck = document.querySelector("#ingredients");
 // console.log(qqq);
 
 const mapIngr = ingredients.map(element => {
-	const qwe = document.createElement("li");
-	qwe.textContent = element;
-	qwe.classList.add("item");
-return qwe;
+	const hate = document.createElement("li");
+	hate.textContent = element;
+	hate.classList.add("item");
+return hate;
 
 });
+fck.append(...mapIngr);
 
-addIngredients.append(...mapIngr);
+// const notebooks = [
+// 'Accer',
+// 'Asus',
+// 'lenovo',
+// 'Aorus'
+// ];
+
+// const pcnotes = document.querySelector("#ingredients");
+
+// const notebookModels = notebooks.map(element => {
+// 	const nootebook = document.createElement("li");
+// 	nootebook.textContent = element;
+// 	nootebook.classList.add("item");
+// 	return nootebook;
+// });
+// pcnotes.append(...notebookModels);
+
+// const fruits = [
+// 	'Apple',
+// 	'Banana',
+// 	'Coconut',
+// 	'Orange'
+// 	];
+// const allFruits =document.querySelector("#fruit")
+// const fruitMap = fruits.map(element => {
+// 	const fruitLi = document.createElement("li");
+// 	fruitLi.textContent = element;
+// 	fruitLi.classList.add("item");
+// 	return fruitLi;
+// });
+// allFruits.append(...fruitMap);
