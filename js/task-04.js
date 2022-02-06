@@ -1,13 +1,13 @@
 let counterValue = 0;
 
 const decrementValue = event => {
-// getValue.textContent = counterValue -= 1;
-	 value.textContent = counterValue -= 1;
+getValue.textContent = counterValue -= 1;
+	//  value.textContent = counterValue -= 1;
 	console.log(counterValue);
 }
 const incrementValue = event => {
-	// getValue.textContent = counterValue += 1;
-	value.textContent = counterValue += 1;
+	getValue.textContent = counterValue += 1;
+	// value.textContent = counterValue += 1;
 	console.log(counterValue);
 }
 
@@ -18,7 +18,7 @@ const getDecrement = document.querySelector('[data-action="decrement"]');
 // console.log(getDecrement);
 const getIncrement = document.querySelector('[data-action="increment"]');
 // console.log(getIncrement);
-// const getValue = document.querySelector("#value");
+const getValue = document.querySelector("#value");
 // console.log(getValue);
 
 
