@@ -22,17 +22,17 @@ const ingredients = [
 // 	addIngredients.append(addLi);
 
 // };
-const fck = document.querySelector("#ingredients");
+const ulIngridients = document.querySelector("#ingredients");
 // console.log(qqq);
 
 const mapIngr = ingredients.map(element => {
-	const hate = document.createElement("li");
-	hate.textContent = element;
-	hate.classList.add("item");
-return hate;
+	const liCreate = document.createElement("li");
+	liCreate.textContent = element;
+	liCreate.classList.add("item");
+return liCreate;
 
 });
-fck.append(...mapIngr);
+ulIngridients.append(...mapIngr);
 
 // const notebooks = [
 // 'Accer',
