@@ -7,9 +7,9 @@ const currentColor = document.querySelector('.color');
 // console.log(currentColor.textContent);
 const bodyColor = document.querySelector('body');
 // console.log(bodyColor.style.backgroundColor);
-let randomColor = getRandomHexColor();
+
 const magicBackgroundColor = event => {
-	
+	const randomColor = getRandomHexColor();
 	bodyColor.style.backgroundColor = randomColor;
 	currentColor.textContent = randomColor;
 	// console.log(currentColor.textContent);
